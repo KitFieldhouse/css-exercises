@@ -28,7 +28,7 @@ img {
 /* SOLUTION */
 
 body {
-  text-align: center;
+  text-align: center; /* ah! this gets inherited I bet!*/
 }
 
 .title {
