@@ -5,10 +5,35 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
 }
 
 img {
   width: 600px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul, .footer ul {
+  padding: 15px;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer {
+  background-color: gray;
 }
 
 button {
