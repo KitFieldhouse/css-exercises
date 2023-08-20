@@ -43,7 +43,6 @@ body, html {
 
 .article {
   background-color: #bccbde;
-  grid-area: article;
 }
 
 .article p {
